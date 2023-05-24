@@ -10,7 +10,7 @@ app.use("/api/cars", require('./routes/carsRoute'))
 app.use("/api/users", require('./routes/usersRoute'))
 app.use('/api/bookings/', require('./routes/bookingsRoute'))
 app.get("/", (req, res) => {
-    res.send("Server Running");
+    res.send("Server Running for Rental Application");
 });
 
 app.listen(port, () => {
